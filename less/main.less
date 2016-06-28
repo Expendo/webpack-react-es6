@@ -1,0 +1,57 @@
+@import "layout.less";
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 auto;
+
+    .active {
+        border-bottom: 1px solid #00a8ff;
+    }
+
+    .my-nav {
+        width: 250px;
+        background: #fff;
+        color: #fff;
+        height: 100vh;
+        border-right: 1px solid #ddd;
+
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            margin-top: 20px;
+        }
+
+        .navbar {
+            margin-top: 100px;
+
+            li {
+            	width: 25px;
+                text-align: center;
+                height: 34px;
+                line-height: 34px;
+                margin-top: 15px;
+                a {
+                    display: block;
+                    width: 150px;
+                    line-height: 34px;
+                    margin-left: 30px;
+                    &:hover {
+                        border-bottom: 1px solid #00a8ff;
+                    }
+                }
+            }
+        }
+    }
+
+    .content {
+        width: 100%;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:blue;
+
+    }
+}
