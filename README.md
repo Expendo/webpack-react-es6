@@ -1,3 +1,3 @@
 # webpack-react-es6
-*First：$npm install;
-*Second:$ webpack
+<span>First：$npm install</span>
+<span>Second:$ webpack</span>
